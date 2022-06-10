@@ -67,9 +67,8 @@
 		EEBFD6F52852CD12006D00C3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				EEBFD7232852D298006D00C3 /* Root */,
-				EEBFD7222852D293006D00C3 /* App */,
-				EEBFD6F82852CD13006D00C3 /* Assets.xcassets */,
+				EEBFD7252852DA7D006D00C3 /* Resource */,
+				EEBFD7242852DA75006D00C3 /* Source */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -112,6 +111,23 @@
 				EEBFD6F72852CD12006D00C3 /* ContentView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		EEBFD7242852DA75006D00C3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EEBFD7232852D298006D00C3 /* Root */,
+				EEBFD7222852D293006D00C3 /* App */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EEBFD7252852DA7D006D00C3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EEBFD6F82852CD13006D00C3 /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
